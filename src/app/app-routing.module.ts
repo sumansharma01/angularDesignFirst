@@ -8,10 +8,7 @@ import { OtherComponent } from './other/other.component';
 import { TablesComponent } from './tables/tables.component';
 
 const routes: Routes = [
-  {
-    path:'',
-    component:AppComponent
-  },
+  
   {
     path:'border',
     component:BordersComponent
