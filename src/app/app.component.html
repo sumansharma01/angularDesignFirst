@@ -1,3 +1,4 @@
+
 <div class="container-fluid">
   <div id="wrapper">
     <app-sidebar></app-sidebar>
@@ -11,12 +12,21 @@
           <app-belownavbar></app-belownavbar>
           <div class="row">
             <div class="col-xl-3 col-md-6 mb-4" *ngFor="let element of dataUpperCards">
+              
               <app-uppercards [upperCardsObject]="element"></app-uppercards>
             </div>
            
           </div>
+          <router-outlet></router-outlet>
         </div>
       </div>
     </div>
+    
+
+    
   </div>
 </div>
+
+
+
+
